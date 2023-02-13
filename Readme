@@ -1,0 +1,19 @@
+Pour réaliser cet éditeur de texte collaboratif, vous pouvez utiliser un framework web tel que React, Angular ou
+Vue.js pour construire l'interface utilisateur. Vous pouvez utiliser un service REST pour interagir avec le serveur et 
+transmettre les modifications du document.
+
+Voici les étapes générales pour construire cet éditeur de texte collaboratif :
+
+Créez un formulaire avec un champ de texte pour permettre à l'utilisateur de modifier le document.
+
+Implémentez une méthode pour transmettre les modifications au serveur à l'aide d'une requête HTTP GET.
+
+Créez un point de terminaison REST pour gérer les requêtes GET et mettre à jour le document sur le serveur.
+
+Lorsqu'une modification est transmise au serveur, mettez à jour le document et renvoyez la réponse au client avec la version actualisée du document.
+
+Mettre à jour l'interface utilisateur avec la réponse reçue du serveur pour afficher la version la plus récente du document.
+
+Il est important de gérer les conflits d'édition entre plusieurs utilisateurs travaillant sur 
+le même document en même temps. Vous pouvez utiliser des algorithmes de verrouillage de base de données ou des
+algorithmes de résolution de conflits pour gérer les conflits d'édition.
